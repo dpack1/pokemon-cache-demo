@@ -1,0 +1,16 @@
+{
+  "name": "pokemon-cache-demo",
+  "version": "1.0.0",
+  "description": "This project demonstrates caching with Node.js and Valkey, storing data fetched from the Pokémon API in an in-memory cache to improve retrieval times and reduce redundant API calls.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "ioredis": "^5.4.1"
+  }
+}
