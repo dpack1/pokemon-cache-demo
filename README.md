@@ -24,10 +24,17 @@ The cache stores Pokémon data for a specified time (TTL), so repeated requests 
 ```npm install```
 
 Make sure Docker dashboard is running
+
 ``` docker-compose up -d ```
+
 ``` docker-compose up --build```
+
+Run file to see if it all works 
+
 ``` node pikachu.js```
+
 ``` node allPokemon.js```
+
 
 ### Prerequisites
 
