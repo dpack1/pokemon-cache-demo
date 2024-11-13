@@ -14,11 +14,20 @@ The cache stores Pokémon data for a specified time (TTL), so repeated requests 
 
 ## Project Structure
 
-- **index.js**: Main logic for fetching Pokémon data, either from cache or from the API.
+- **pikachu.js**: Main logic for fetching individual Pokémon data, either from cache or from the API.
+- **allPokemon.js**: Main logic for fetching all Pokémon data, either from cache or from the API.
 - **cache.js**: Utility functions to interact with Valkey/Redis for setting and getting cached data.
 - **docker-compose.yml**: Configures Valkey service for in-memory caching.
 
 ## Getting Started
+
+```npm install```
+
+Make sure Docker dashboard is running
+``` docker-compose up -d ```
+``` docker-compose up --build```
+``` node pikachu.js```
+``` node allPokemon.js```
 
 ### Prerequisites
 
