@@ -1,4 +1,4 @@
-# Pokémon API Caching Demo
+# Pokémon API Caching Demo <img src="https://media0.giphy.com/media/10LKovKon8DENq/giphy.gif?cid=6c09b95244hkh65cdyfl4c4y3y5s7ggj1lkkxmjptx7wco93&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="60" height="50" style="border-radius: 50%;" />
 
 This project demonstrates caching with Node.js and Valkey, storing data fetched from the Pokémon API in an in-memory cache to improve retrieval times and reduce redundant API calls.
 
